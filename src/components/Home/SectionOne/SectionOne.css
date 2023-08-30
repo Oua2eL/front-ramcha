@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.Section-Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.left-section {
+  flex: 1;
+  padding: 10px;
+}
+
+.intro-text {
+  color: #2b378b;
+  font-family: 'Anton', sans-serif;
+  font-size: 70px;
+  margin-bottom: 5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.download-text {
+  color: #232971;
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 2.5rem;
+}
+
+.download {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.btn-download {
+  width: 228px;
+  height: 78px;
+  flex-shrink: 0;
+}
+
+.right-section {
+  flex: 1;
+  text-align: center;
+}
+
+.right-img {
+  max-width: 85%;
+}
+
+@media (max-width: 480px) {
+  .Section-Container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro-text {
+    color: #2b378b;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .download-text {
+    text-align: center;
+    font-size: 33.549px;
+  }
+  .download {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+  }
+
+  .btn-download {
+    width: 180px;
+    height: 58px;
+    flex-shrink: 0;
+  }
+  .right-img {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .Section-Container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro-text {
+    color: #2b378b;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .download-text {
+    text-align: center;
+    font-size: 33.549px;
+  }
+  .download {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+
+  .btn-download {
+    width: 180px;
+    height: 58px;
+    flex-shrink: 0;
+  }
+  .right-img {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .Section-Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .intro-text {
+    color: #2b378b;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 3rem;
+  }
+  .download-text {
+    font-size: 33.549px;
+  }
+  .download {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+
+  .btn-download {
+    width: 180px;
+    height: 58px;
+    flex-shrink: 0;
+  }
+  .right-img {
+    max-width: 100%;
+  }
+}

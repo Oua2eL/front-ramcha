@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d0d1e6;
+}
+
+section {
+    margin: 20px
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+  }

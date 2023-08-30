@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.privacy-title1 {
+    color: #2d348b;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.privacy-title2 {
+    color: #2d348b;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.privacy-p {
+    color: #000;
+    font-size: 18px;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 2rem;
+    width: 80%;
+}
